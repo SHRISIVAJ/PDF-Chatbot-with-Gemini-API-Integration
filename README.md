@@ -4,7 +4,7 @@
 This project demonstrates the integration of a PDF chatbot using the **Google Gemini API** to provide conversational responses based on the contents of a PDF file. The chatbot allows users to ask questions related to the content of a specific PDF, and it retrieves relevant answers using AI-powered natural language processing.
 
 ## Features
-- **PDF Parsing**: The backend extracts and processes text from a provided PDF file (`roma_ai_training.pdf`).
+- **PDF Parsing**: The backend extracts and processes text from a provided PDF file (`training.pdf`).
 - **Gemini API Integration**: The project uses the **Google Gemini API** for question-answering based on the PDF content.
 - **FastAPI Backend**: The application is built using **FastAPI** to provide a RESTful API for interacting with the chatbot.
 - **Cross-Origin Resource Sharing (CORS)**: The app supports CORS, allowing the frontend (React) to communicate with the backend seamlessly.
@@ -20,12 +20,12 @@ This project demonstrates the integration of a PDF chatbot using the **Google Ge
 ### Backend Setup:
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/your-username/pdf-chatbot.git
+    https://github.com/SHRISIVAJ/PDF-Chatbot-with-Gemini-API-Integration
     ```
 
 2. **Navigate to the backend folder**:
     ```bash
-    cd pdf-chatbot/backend
+    cd backend
     ```
 
 3. **Install the required dependencies**:
@@ -46,7 +46,7 @@ This project demonstrates the integration of a PDF chatbot using the **Google Ge
 
 1. **Navigate to the frontend folder**:
     ```bash
-    cd pdf-chatbot/frontend
+    cd frontend
     ```
 
 2. **Install the frontend dependencies**:
@@ -65,7 +65,7 @@ This project demonstrates the integration of a PDF chatbot using the **Google Ge
 
 ## How It Works:
 1. **PDF Upload & Processing**:
-   - The content of the PDF (`roma_ai_training.pdf`) is extracted and stored in the backend.
+   - The content of the PDF (`training.pdf`) is extracted and stored in the backend.
    
 2. **User Query**:
    - The user sends a query through a POST request to the `/chat` endpoint.
