@@ -80,6 +80,3 @@ This project demonstrates the integration of a PDF chatbot using the **Google Ge
 - **PyPDF2**: For PDF parsing and text extraction.
 - **CORS**: To enable communication between React frontend and FastAPI backend.
 
-## Future Improvements:
-- **RAG Integration**: Integrating a **Vector Database** (e.g., FAISS, Pinecone) for enhanced content retrieval.
-- **Additional Features**: Support for more complex PDF content processing and more advanced query capabilities.
